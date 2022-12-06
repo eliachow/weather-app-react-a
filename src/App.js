@@ -1,25 +1,14 @@
-import "./App.css";
+import Header from "./Header";
+import Date from "./Date";
 
 function App() {
   return (
     <div className="App">
-      <div className="top-section">
-        <div className="header">Weather App</div>
-        <form class="row search-bar">
-          <div class="col-6">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Enter a city"
-            />
-          </div>
-          <div class="col-3">
-            <input type="submit" class="form-control" value="Search" />
-          </div>
-          <div class="col-3">
-            <input type="submit" class="form-control" value="Location" />
-          </div>
-        </form>
+      <Header />
+      <Date />
+      <div className="row">
+        <div className="col-7">Test Location</div>
+        <div className="col-5">Test Fiveday</div>
       </div>
     </div>
   );

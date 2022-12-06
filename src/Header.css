@@ -1,0 +1,23 @@
+.top-section {
+  position: fixed;
+  width: 100%;
+}
+
+.title {
+  color: white;
+  background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+  font-family: "Archivo Black", sans-serif;
+  font-size: 60px;
+  padding-left: 10%;
+}
+
+.search-bar {
+  padding: 0px 10% 10px 10%;
+  background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+}
+
+.date-time {
+  text-align: right;
+  font-size: 25px;
+  padding: 150px 10% 0px 10%;
+}
