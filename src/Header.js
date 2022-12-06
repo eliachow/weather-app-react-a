@@ -20,8 +20,6 @@ export default function Header() {
           <input type="submit" class="form-control" value="Location" />
         </div>
       </form>
-
-      <div className="datetime">Monday January 1, 2022 10:00</div>
     </div>
   );
 }
