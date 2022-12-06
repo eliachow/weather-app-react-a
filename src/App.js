@@ -1,14 +1,16 @@
 import Header from "./Header";
-import Date from "./Date";
+import Fiveday from "./Fiveday";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Date />
+      <div className="testdate">Date Test</div>
       <div className="row">
         <div className="col-7">Test Location</div>
-        <div className="col-5">Test Fiveday</div>
+        <div className="col-5">
+          <Fiveday />
+        </div>
       </div>
     </div>
   );
