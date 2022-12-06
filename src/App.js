@@ -1,7 +1,6 @@
 import Header from "./Header";
 import Fiveday from "./Fiveday";
 import Location from "./Location";
-import Hourly from "./Hourly";
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
           <Fiveday />
         </div>
       </div>
-      <Hourly />
     </div>
   );
 }

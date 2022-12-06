@@ -4,7 +4,7 @@ import "./Hourly.css";
 export default function Hourly() {
   return (
     <div className="Hourly">
-      <div>Hourly Forecast</div>
+      <h3>Hourly Forecast</h3>
       <div className="row">
         <div className="col-sm">
           <div>Image</div>

@@ -3,7 +3,7 @@ import "./Fiveday.css";
 
 export default function Fiveday() {
   return (
-    <div className="Fiveday">
+    <div className="fiveday">
       <div className="col-10">
         <h3>5 Day Forecast</h3>
         <div>
