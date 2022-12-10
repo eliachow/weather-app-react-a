@@ -5,3 +5,11 @@
 .WeatherData {
   padding-left: 150px;
 }
+
+.LocationTemperature {
+  font-size: 100px;
+}
+
+.LocationUnit {
+  font-size: 40px;
+}

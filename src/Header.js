@@ -3,7 +3,7 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <div className="top-section">
+    <div className="TopSection">
       <div className="title">Weather App</div>
       <form class="row search-bar">
         <div class="col-6">
@@ -11,6 +11,7 @@ export default function Header() {
             type="text"
             className="form-control"
             placeholder="Enter a city"
+            autoFocus="on"
           />
         </div>
         <div class="col-3">

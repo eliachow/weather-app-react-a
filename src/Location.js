@@ -12,7 +12,8 @@ export default function Location() {
         <div className="row">
           <div className="col-5">Weather Image</div>
           <div className="col-6">
-            <span>ᵒC | ᵒF</span>
+            <span className="LocationTemperature">6 </span>
+            <span className="LocationUnit">ᵒC | ᵒF</span>
             <div>Partially Cloudy</div>
             <div>Humidity</div>
             <div>Wind Speed</div>
