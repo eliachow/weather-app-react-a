@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Fiveday from "./Fiveday";
 import Location from "./Location";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Fiveday />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

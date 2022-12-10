@@ -19,6 +19,11 @@ export default function Location() {
           </div>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <Hourly />
     </div>
   );

@@ -1,3 +1,7 @@
 .location {
-  padding: 150px 10% 0px 10%;
+  padding: 175px 10% 0px 18%;
+}
+
+.WeatherData {
+  padding-left: 150px;
 }
